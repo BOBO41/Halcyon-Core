@@ -44,9 +44,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\heart\src\Heart\Halcyon.Heart.csproj" />
-    <ProjectReference Include="..\..\..\identity\src\Identity\Halcyon.Identity.csproj" />
+    <ProjectReference Include="..\..\..\Halcyon-Heart\src\Heart\Halcyon.Heart.csproj" />
+    <ProjectReference Include="..\..\..\Halcyon-Identity\src\Identity\Halcyon.Identity.csproj" />
     <ProjectReference Include="..\Halcyon.Cms.Lib\Halcyon.Cms.Lib.csproj" />
   </ItemGroup>
-
 </Project>

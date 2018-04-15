@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halcyon.Cms.Web.Mvc", "Halc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{96B08E7C-A426-437C-96BA-1A2DF11FD135}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halcyon", "..\..\heart\src\Heart\Halcyon.Heart.csproj", "{289DFF6B-C944-4005-83BC-10DCC6420A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halcyon", "..\..\Halcyon-Heart\src\Heart\Halcyon.Heart.csproj", "{289DFF6B-C944-4005-83BC-10DCC6420A1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halcyon.Identity", "..\..\identity\src\Identity\Halcyon.Identity.csproj", "{73786840-58D8-447F-B2F6-D90F751651FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halcyon.Identity", "..\..\Halcyon-Identity\src\Identity\Halcyon.Identity.csproj", "{73786840-58D8-447F-B2F6-D90F751651FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2BB0A3C7-5A8A-4EC7-90D8-09E6AEF5EDBD}"
 EndProject
