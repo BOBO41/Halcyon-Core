@@ -30,7 +30,7 @@ before_build:
     REM SonarQube.Scanner.MSBuild.exe end /d:sonar.login="abc12c086721b2321aeca5c1f7c06e19b6a92213"
 
 
-    cd Swastika.Cms.Web.Mvc
+    cd Halcyon.Cms.Web.Mvc
 
     dotnet restore
 
@@ -40,7 +40,7 @@ build:
   verbosity: minimal
 test_script:
 - cmd: >-
-    OpenCover.Console.exe -register:user -target:"C:/Program Files/dotnet/dotnet.exe" -targetargs:test -filter:"+[Swastika.Cms.Web.Mvc*]* -[Swastika.Cms.Test*]*" -output:".\MyProject_coverage.xml" -oldstyle
+    OpenCover.Console.exe -register:user -target:"C:/Program Files/dotnet/dotnet.exe" -targetargs:test -filter:"+[Halcyon.Cms.Web.Mvc*]* -[Halcyon.Cms.Test*]*" -output:".\MyProject_coverage.xml" -oldstyle
 
     codecov -f "MyProject_coverage.xml" -t ef322be9-f840-40eb-949e-1232ddb113ec
 artifacts:
