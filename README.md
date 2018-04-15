@@ -12,7 +12,7 @@ Halcyon Core is free, open source and cross-platform CMS based on ASP.NET Core (
 ## Buid status:
 | Build server| Platform       | Status      |
 |-------------|----------------|-------------|
-|Travis       | Linux / MacOS  |[![Build Status](https://travis-ci.org/Halcyon-Core/Halcyon-Core-Core.svg?branch=master)](https://travis-ci.org/Halcyon-Core/Halcyon-Core) |
+|Travis       | Linux / MacOS  |[![Build Status](https://travis-ci.org/Halcyon-Core/Halcyon-Core.svg?branch=master)](https://travis-ci.org/Halcyon-Core/Halcyon-Core) |
 |Appveyor      | Windows/Vs2017 |[![Build status](https://ci.appveyor.com/api/projects/status/dup0f5a09j58ud8s?svg=true)](https://ci.appveyor.com/project/Smilefounder/halcyon-core)|
 
 - Docs: [http://docs.halcyoncore.net](http://docs.halcyoncore.net)
