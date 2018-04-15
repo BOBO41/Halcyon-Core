@@ -17,7 +17,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using static Halcyon.Common.Utility.Enums;
 
-namespace Swastka.IO.Cms.Api.Controllers
+namespace Halcyon.IO.Cms.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/{culture}/template")]

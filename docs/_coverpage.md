@@ -8,4 +8,4 @@
 * No statically built html files
 * Multiple themes
 
-[GitHub](https://github.com/Swastika-IO/Swastika-IO-Core)
+[GitHub](https://github.com/Halcyon-Core/Halcyon-Core)

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Swastika.Cms.Mvc.Controllers;
+using Halcyon.Cms.Mvc.Controllers;
 using Microsoft.AspNetCore.Hosting;
-using Swastika.Cms.Lib.ViewModels;
-using Swastika.Cms.Lib.Repositories;
-using Swastika.Cms.Lib;
+using Halcyon.Cms.Lib.ViewModels;
+using Halcyon.Cms.Lib.Repositories;
+using Halcyon.Cms.Lib;
 
-namespace Swastika.Cms.Mvc.Areas.Portal.Controllers
+namespace Halcyon.Cms.Mvc.Areas.Portal.Controllers
 {
     [Microsoft.AspNetCore.Authorization.Authorize]
     [Area("Portal")]

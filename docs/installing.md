@@ -45,14 +45,14 @@ That's it! Halcyon Core CMS should now be installed.
 
 # Detailed Instructions
 ## Step 1: Download and Extract
-Download and unzip the Halcyon Core CMS package from [https://github.com/Swastika-IO/Swastika-IO-Core/releases](https://github.com/Swastika-IO/Swastika-IO-Core/releases).
+Download and unzip the Halcyon Core CMS package from [https://github.com/Halcyon-Core/Halcyon-Core/releases](https://github.com/Halcyon-Core/Halcyon-Core/releases).
 
  - If you will be uploading Halcyon Core CMS to a remote web server, download the Halcyon Core CMS package to your computer with a web browser and unzip the package.
  - If you will be using FTP, skip Step 2 and go to the next step - uploading files is covered later.
  - If you have shell access to your web server, and are comfortable using console-based tools, you may wish to download Halcyon Core CMS directly to your web server using wget (or lynx or another console-based web browser) if you want to avoid FTPing:
 
 ```bash
-wget https://github.com/Swastika-IO/Swastika-IO-Core/archive/latest.tar.gz
+wget https://github.com/Halcyon-Core/Halcyon-Core/archive/latest.tar.gz
 ```
 Then unzip the package using: 
 ```bash

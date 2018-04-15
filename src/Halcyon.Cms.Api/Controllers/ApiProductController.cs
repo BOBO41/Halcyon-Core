@@ -20,7 +20,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using static Halcyon.Common.Utility.Enums;
 
-namespace Swastka.Cms.Api.Controllers
+namespace Halcyon.Cms.Api.Controllers
 {
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme
     //    //, Policy = "AddEditUser"

@@ -18,7 +18,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Swastka.Cms.Api.Controllers
+namespace Halcyon.Cms.Api.Controllers
 {
     [Route("api/{culture}/module-data")]
     public class ApiModuleDataController :

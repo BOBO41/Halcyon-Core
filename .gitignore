@@ -249,8 +249,8 @@ ModelManifest.xml
 /src/Halcyon.Cms.Lib/obj
 /src/Halcyon.Cms.Lib/bin
 /src/Halcyon.IO.Core.Lib/obj
-/src/Swastka.Cms.Api/obj
-/src/Swastka.Cms.Api/bin
+/src/Halcyon.Cms.Api/obj
+/src/Halcyon.Cms.Api/bin
 /src/Halcyon.Cms.Lib/bin
 /src/Halcyon.Cms.Lib/obj
 /src/.vs

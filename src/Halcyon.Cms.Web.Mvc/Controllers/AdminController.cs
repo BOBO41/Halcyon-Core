@@ -6,7 +6,7 @@
 //using Microsoft.AspNetCore.Authorization;
 //using Microsoft.AspNetCore.Http;
 
-//namespace Swastika.Cms.Mvc.Controllers
+//namespace Halcyon.Cms.Mvc.Controllers
 //{
 //    [Route("admin")]
 //    public class AdminController : Controller

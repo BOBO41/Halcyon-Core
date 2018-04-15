@@ -17,7 +17,7 @@ using Halcyon.Identity.Infrastructure;
 using Halcyon.Identity.Models;
 using Halcyon.Identity.Models.AccountViewModels;
 using Halcyon.Identity.Services;
-using Swastka.Cms.Api;
+using Halcyon.Cms.Api;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;

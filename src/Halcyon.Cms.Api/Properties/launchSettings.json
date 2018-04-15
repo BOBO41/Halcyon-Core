@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Swastka.Cms.Api": {
+    "Halcyon.Cms.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/en-us/articles",

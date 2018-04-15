@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Swastika.Cms.Lib.ViewModels.BackEnd;
-using Swastika.Cms.Lib.ViewModels.Info;
+using Halcyon.Cms.Lib.ViewModels.BackEnd;
+using Halcyon.Cms.Lib.ViewModels.Info;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TTS.Web.Areas.Portal.Controllers.Apis

@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using Microsoft.EntityFrameworkCore.Storage;
-using Swastika.Cms.Lib.Models.Cms;
+using Halcyon.Cms.Lib.Models.Cms;
 
-namespace Swastika.Cms.Lib.ViewModels
+namespace Halcyon.Cms.Lib.ViewModels
 {
     public class CultureViewModel :
-        Swastika.Domain.Data.ViewModels.ViewModelBase<SiocCmsContext, SiocCulture, CultureViewModel>
+        Halcyon.Domain.Data.ViewModels.ViewModelBase<SiocCmsContext, SiocCulture, CultureViewModel>
     {
         public int Id { get; set; }
         public string Lcid { get; set; }

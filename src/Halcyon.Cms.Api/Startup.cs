@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Swastka.Cms.Web
+namespace Halcyon.Cms.Web
 {
     public partial class Startup
     {

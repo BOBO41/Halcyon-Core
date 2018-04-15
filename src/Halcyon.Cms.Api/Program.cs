@@ -5,7 +5,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Swastka.Cms.Api
+namespace Halcyon.Cms.Api
 {
     public class Program
     {

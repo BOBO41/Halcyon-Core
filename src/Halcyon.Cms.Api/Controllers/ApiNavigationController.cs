@@ -17,7 +17,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Swastka.Cms.Api.Controllers
+namespace Halcyon.Cms.Api.Controllers
 {
     //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme
     //    //, Policy = "AddEditUser"

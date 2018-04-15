@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 * Getting started
-  * [Dowload](https://github.com/Swastika-IO/Swastika-IO-Core/releases)
+  * [Dowload](https://github.com/Halcyon-Core/Halcyon-Core/releases)
   * [Installing](installing.md)
 * CMS User Guide
   * [Your 1st step](firststep.md)

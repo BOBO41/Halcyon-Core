@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using Swastika.Identity.Models;
-using Swastika.Cms.Mvc.Areas.User.Models.AccountViewModels;
-using Swastika.Identity.Services;
+using Halcyon.Identity.Models;
+using Halcyon.Cms.Mvc.Areas.User.Models.AccountViewModels;
+using Halcyon.Identity.Services;
 using Microsoft.AspNetCore.Authentication;
-using Swastika.Cms.Mvc.Controllers;
-using Swastika.Cms.Mvc.Areas.Portal.Controllers;
+using Halcyon.Cms.Mvc.Controllers;
+using Halcyon.Cms.Mvc.Areas.Portal.Controllers;
 
-namespace Swastika.Cms.Mvc.Areas.User.Controllers
+namespace Halcyon.Cms.Mvc.Areas.User.Controllers
 {
     [Area("User")]
     [Route("{culture}/account")]

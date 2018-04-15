@@ -3,9 +3,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
-using Swastika.Identity.Models;
+using Halcyon.Identity.Models;
 
-namespace Swastika.Cms.Lib.Repositories
+namespace Halcyon.Cms.Lib.Repositories
 {
     public class AuthRepository : UserManager<ApplicationUser>
     {

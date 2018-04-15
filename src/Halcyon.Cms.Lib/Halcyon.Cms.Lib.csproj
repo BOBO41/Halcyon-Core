@@ -8,10 +8,10 @@
     <Company>Halcyon Core</Company>
     <Copyright>Halcyon Core, Smileway, Befirst.Solution</Copyright>
     <Product>Halcyon Core CMS Library</Product>
-    <PackageLicenseUrl>https://github.com/Swastika-IO/Swastika-IO-Core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/Halcyon-Core/Halcyon-Core/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://www.Halcyon.io</PackageProjectUrl>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/26378971</PackageIconUrl>
-    <RepositoryUrl>https://github.com/Swastika-IO/Swastika-IO-Core</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Halcyon-Core/Halcyon-Core</RepositoryUrl>
     <PackageTags>Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,</PackageTags>
   </PropertyGroup>
 

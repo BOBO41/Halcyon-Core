@@ -2,12 +2,12 @@
 
 Halcyon Core is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
 
-[![Gitter](https://badges.gitter.im/Halcyon-Core/Halcyon-Core-Core.svg)](https://gitter.im/Halcyon-Core/Halcyon-Core-Core?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core-Core.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core-Core?ref=badge_shield)
+[![Gitter](https://badges.gitter.im/Halcyon-Core/Halcyon-Core.svg)](https://gitter.im/Halcyon-Core/Halcyon-Core?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core?ref=badge_shield)
 [![CodeFactor](https://www.codefactor.io/repository/github/Halcyon-Core/Halcyon-Core-core/badge)](https://www.codefactor.io/repository/github/Halcyon-Core/Halcyon-Core-core)
-[![codecov](https://codecov.io/gh/Halcyon-Core/Halcyon-Core-Core/branch/master/graph/badge.svg)](https://codecov.io/gh/Halcyon-Core/Halcyon-Core-Core)
+[![codecov](https://codecov.io/gh/Halcyon-Core/Halcyon-Core/branch/master/graph/badge.svg)](https://codecov.io/gh/Halcyon-Core/Halcyon-Core)
 [![codebeat badge](https://codebeat.co/badges/dcd5aeaf-f8d5-412e-bc22-e937ccf3a698)](https://codebeat.co/projects/github-com-smileway-Halcyon-Core-core-master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbd56b2b0e1f4711a83dfe61181ed894)](https://www.codacy.com/app/Smilefounder/Halcyon-Core-Core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Halcyon-Core/Halcyon-Core-Core&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbd56b2b0e1f4711a83dfe61181ed894)](https://www.codacy.com/app/Smilefounder/Halcyon-Core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Halcyon-Core/Halcyon-Core&amp;utm_campaign=Badge_Grade)
 
 ## Buid status:
 | Build server| Platform       | Status      |
@@ -40,20 +40,20 @@ What things you need to install the software and how to install them
 
 ### Installing
 
-1. Download the source code from [Github](https://github.com/Halcyon-Core/Halcyon-Core-Core)
+1. Download the source code from [Github](https://github.com/Halcyon-Core/Halcyon-Core)
 2. Restore dotnet core Nuget's packages
 ```bash
-cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
+cd [github-project-folder]\src\Halcyon.Cms.Web.Mvc]
 dotnet restore
 ```
 3. Build dotnet core packages
 ```bash
-cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
+cd [github-project-folder]\src\Halcyon.Cms.Web.Mvc]
 dotnet build
 ```
 4. Then run! That it's!
 ```bash
-cd [github-project-folder]\src\Swastika.Cms.Web.Mvc]
+cd [github-project-folder]\src\Halcyon.Cms.Web.Mvc]
 dotnet run
 ```
 5. Now you can access the site from your localhost (e.g. http://localhost:58511)
@@ -66,13 +66,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Halcyon-Core/Halcyon-Core-Core/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Halcyon-Core/Halcyon-Core/tags). 
 
 ## Authors
 
 * **Smileway Team** - *Initial work* - [Smileway.co](http://www.smileway.co)
 
-See also the list of [contributors](https://github.com/Halcyon-Core/Halcyon-Core-Core/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Halcyon-Core/Halcyon-Core/graphs/contributors) who participated in this project.
 
 ## References
 (TBC)
@@ -82,7 +82,7 @@ See also the list of [contributors](https://github.com/Halcyon-Core/Halcyon-Core
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core-Core.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core-Core?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHalcyon-Core%2FHalcyon-Core?ref=badge_large)
 
 ## Thanks to
 

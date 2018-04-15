@@ -5,13 +5,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Swastika.Identity.Models.ManageViewModels;
-using Swastika.Identity.Models;
-using Swastika.Identity.Services;
+using Halcyon.Identity.Models.ManageViewModels;
+using Halcyon.Identity.Models;
+using Halcyon.Identity.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Authentication;
 
-namespace Swastika.Cms.Mvc.Controllers
+namespace Halcyon.Cms.Mvc.Controllers
 {
     //[Authorize]
     public class ManageController : BaseController<ManageController>

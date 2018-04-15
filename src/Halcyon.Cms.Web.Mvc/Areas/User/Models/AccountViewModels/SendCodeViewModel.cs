@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Swastika.Cms.Mvc.Areas.User.Models.AccountViewModels
+namespace Halcyon.Cms.Mvc.Areas.User.Models.AccountViewModels
 {
     public class SendCodeViewModel
     {

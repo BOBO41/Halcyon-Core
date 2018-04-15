@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Swastika.Cms.Mvc.Controllers
+namespace Halcyon.Cms.Mvc.Controllers
 {
     [Route("")]
     public class DefaultController : BaseController<DefaultController>

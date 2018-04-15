@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Swastika.Domain.Core.Models;
+using Halcyon.Domain.Core.Models;
 using System.Linq.Expressions;
 using System;
-using Swastika.Common.Helper;
+using Halcyon.Common.Helper;
 using Microsoft.Data.OData.Query;
 using System.Threading.Tasks;
-using Swastika.Infrastructure.Data.Repository;
+using Halcyon.Infrastructure.Data.Repository;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Swastka.Cms.Api.Controllers
+namespace Halcyon.Cms.Api.Controllers
 {
     public class BaseApiController<TContext, TModel> : Controller
         where TContext : DbContext
@@ -48,7 +48,7 @@ namespace Swastka.Cms.Api.Controllers
     public class BaseApiController<TDbContext, TModel, TView> : Controller
         where TDbContext : DbContext
         where TModel : class
-        where TView : Swastika.Infrastructure.Data.ViewModels.ViewModelBase<TDbContext, TModel, TView>
+        where TView : Halcyon.Infrastructure.Data.ViewModels.ViewModelBase<TDbContext, TModel, TView>
     {
         protected string _lang;
         protected readonly DefaultRepository<TDbContext, TModel, TView> _repo;

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Swastika.Messenger.Lib.Models;
-using Swastika.Domain.Data.ViewModels;
+using Halcyon.Messenger.Lib.Models;
+using Halcyon.Domain.Data.ViewModels;
 using Microsoft.EntityFrameworkCore.Storage;
 using Newtonsoft.Json;
-using Swastika.IO.Common.Helper;
+using Halcyon.IO.Common.Helper;
 using ChatRoom.Lib.Helpers;
 
-namespace Swastika.Messenger.Lib.ViewModels.Messenger
+namespace Halcyon.Messenger.Lib.ViewModels.Messenger
 {
     public class BlankViewModel 
         : ViewModelBase<MessengerContext, Blank, BlankViewModel>

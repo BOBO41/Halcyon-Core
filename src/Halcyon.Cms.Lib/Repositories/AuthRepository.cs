@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Swastika.Identity.Data;
-using Swastika.Identity.Models;
-using Swastika.Identity.Models.AccountViewModels;
+using Halcyon.Identity.Data;
+using Halcyon.Identity.Models;
+using Halcyon.Identity.Models.AccountViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Swastika.IO.Cms.Lib.Repositories
+namespace Halcyon.IO.Cms.Lib.Repositories
 {
     public class AuthRepository : IDisposable
     {

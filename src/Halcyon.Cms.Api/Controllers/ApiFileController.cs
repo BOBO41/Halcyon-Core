@@ -7,7 +7,7 @@ using Halcyon.Api.Controllers;
 using Halcyon.Cms.Lib.Repositories;
 using Halcyon.Cms.Lib.ViewModels;
 
-namespace Swastka.IO.Cms.Api.Controllers
+namespace Halcyon.IO.Cms.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/file")]

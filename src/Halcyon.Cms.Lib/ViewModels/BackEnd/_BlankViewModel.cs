@@ -1,10 +1,10 @@
 ﻿using System;
-using Swastika.Domain.Data.ViewModels;
+using Halcyon.Domain.Data.ViewModels;
 using Microsoft.EntityFrameworkCore.Storage;
 using Newtonsoft.Json;
-using Swastika.Cms.Lib.Models.Cms;
+using Halcyon.Cms.Lib.Models.Cms;
 
-namespace Swastika.Cms.Lib.ViewModels.BackEnd
+namespace Halcyon.Cms.Lib.ViewModels.BackEnd
 {
     public class BlankViewModel
         : ViewModelBase<SiocCmsContext, SiocBlank, BlankViewModel>

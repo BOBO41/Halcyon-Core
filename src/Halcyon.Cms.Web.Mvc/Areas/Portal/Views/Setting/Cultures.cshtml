@@ -1,5 +1,5 @@
-﻿@using Swastika.Domain.Core.ViewModels
-@model PaginationModel<Swastika.Cms.Lib.ViewModels.CultureViewModel>
+﻿@using Halcyon.Domain.Core.ViewModels
+@model PaginationModel<Halcyon.Cms.Lib.ViewModels.CultureViewModel>
 
 @{
     ViewData["Title"] = "Cultures ";
@@ -12,22 +12,22 @@
         <thead class="thead-light">
             <tr>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Icon", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Icon", culture)
                 </th>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Specificulture", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Specificulture", culture)
                 </th>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Lcid", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Lcid", culture)
                 </th>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Alias", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Alias", culture)
                 </th>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("FullName", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("FullName", culture)
                 </th>
                 <th scope="col">
-                    @Swastika.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Description", culture)
+                    @Halcyon.Cms.Lib.Services.GlobalConfigurationService.Instance.GetLocalString("Description", culture)
                 </th>
                 <th scope="col"></th>
             </tr>

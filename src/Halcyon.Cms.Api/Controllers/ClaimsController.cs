@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Swastika.Api.Controllers;
+using Halcyon.Api.Controllers;
 
-namespace Swastka.IO.Cms.Api.Controllers
+namespace Halcyon.IO.Cms.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/Claims")]

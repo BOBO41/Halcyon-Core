@@ -14,7 +14,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@ViewData["Title"] - Swastika.Cms.Mvc</title>
+    <title>@ViewData["Title"] - Halcyon.Cms.Mvc</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="~/lib/icheck-1.x/skins/square/square.css" rel="stylesheet">
@@ -38,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <link href='/lib/bootstrap-select/dist/css/bootstrap-select.css' rel='stylesheet' />
         <link href="/css/flag-icon.min.css" rel="stylesheet" />
 
-        <link rel="stylesheet" href="~/css/portal/skin-black-swastika.css">
+        <link rel="stylesheet" href="~/css/portal/skin-black-halcyon.css">
         <link rel="stylesheet" href="~/css/portal.site.css">
 
         <!--Datatables-->
@@ -108,12 +108,12 @@ desired effect
 
             <!-- Header Navbar -->
 
-            @await Component.InvokeAsync(typeof(Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar))
+            @await Component.InvokeAsync(typeof(Halcyon.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar))
 
         </header>
         <!-- Left side column. contains the logo and sidebar -->
 
-        @await Component.InvokeAsync(typeof(Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar))
+        @await Component.InvokeAsync(typeof(Halcyon.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar))
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
@@ -123,7 +123,7 @@ desired effect
                     @ViewData["Title"]
                     <small>@ViewData["Description"]</small>
                 </h1>
-                @await Component.InvokeAsync(typeof(Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs))
+                @await Component.InvokeAsync(typeof(Halcyon.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs))
             </section>
 
             <form enctype="multipart/form-data" onsubmit="return false" asp-action="@ViewContext.RouteData.Values["action"].ToString()">
@@ -132,10 +132,10 @@ desired effect
         </div>
         <!-- /.content-wrapper -->
         <!-- Main Footer -->
-        @await Component.InvokeAsync(typeof(Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter))
+        @await Component.InvokeAsync(typeof(Halcyon.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter))
 
         <!-- Control Sidebar -->
-        @await Component.InvokeAsync(typeof(Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar))
+        @await Component.InvokeAsync(typeof(Halcyon.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar))
         <!-- /.control-sidebar -->
         <!-- Add the sidebar's background. This div must be placed
         immediately after the control sidebar -->

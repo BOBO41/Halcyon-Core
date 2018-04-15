@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Swastika.Cms.Mvc.Areas.User.Models.AccountViewModels
+namespace Halcyon.Cms.Mvc.Areas.User.Models.AccountViewModels
 {
     public class ExternalLoginConfirmationViewModel
     {
