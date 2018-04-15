@@ -12,16 +12,16 @@ Halcyon Core is free, open source and cross-platform CMS based on ASP.NET Core (
 ## Buid status:
 | Build server| Platform       | Status      |
 |-------------|----------------|-------------|
-|Travis       | Linux / MacOS  |[![Build Status](https://travis-ci.org/Halcyon-Core/Halcyon-Core-Core.svg?branch=master)](https://travis-ci.org/Halcyon-Core/Halcyon-Core-Core) |
+|Travis       | Linux / MacOS  |[![Build Status](https://travis-ci.org/Halcyon-Core/Halcyon-Core-Core.svg?branch=master)](https://travis-ci.org/Halcyon-Core/Halcyon-Core) |
 |Appveyor      | Windows/Vs2017 |[![Build status](https://ci.appveyor.com/api/projects/status/dup0f5a09j58ud8s?svg=true)](https://ci.appveyor.com/project/Smilefounder/halcyon-core)|
 
 - Docs: [http://docs.halcyoncore.net](http://docs.halcyoncore.net)
 - Demo: [http://demo.halcyoncore.net](http://demo.halcyoncore.net) | [https://www.halcyoncore.net](https://www.halcyoncore.net)
 - Screenshot:  
   - **Default template:**
-![Halcyon Core CMS default template with Now UI Pro](https://github.com/Halcyon-Core/Halcyon-Core-Core/blob/master/docs/_images/readme/Halcyon-Core-Default-Template-Now-UI-Pro-800px.gif?raw=true "Halcyon Core CMS default template with Now UI Pro")
+![Halcyon Core CMS default template with Now UI Pro](https://github.com/Halcyon-Core/Halcyon-Core/blob/master/docs/_images/readme/Halcyon-Core-Default-Template-Now-UI-Pro-800px.gif?raw=true "Halcyon Core CMS default template with Now UI Pro")
   - **Admin Portal:**
-![Halcyon Core Admin Portal Bootstrap 4](https://Halcyon-Core.github.io/Halcyon-Core-Admin/img/white.png "Halcyon Core Admin Portal Bootstrap 4")
+![Halcyon Core Admin Portal Bootstrap 4](https://Halcyon-Core.github.io/Halcyon-Admin-HTML/img/white.png "Halcyon Core Admin Portal Bootstrap 4")
 
 ## Getting Started
 
