@@ -12,16 +12,16 @@ init:
     choco install "msbuild-sonarqube-runner" -y
 before_build:
 - cmd: >-
-    git clone -q --branch=master https://github.com/Swastika-IO/Swastika-IO-Heart.git C:\projects\Swastika-Heart
+    git clone -q --branch=master https://github.com/Halcyon-Core/Halcyon-Heart.git C:\projects\Halcyon-Heart
 
-    git clone -q --branch=master https://github.com/Swastika-IO/Swastika-IO-Identity.git C:\projects\Swastika-Identity
+    git clone -q --branch=master https://github.com/Halcyon-Core/Halcyon-Identity.git C:\projects\Halcyon-Identity
 
     cd src
 
     nuget restore
 
 
-    REM SonarQube.Scanner.MSBuild.exe begin /k:"Swastika-IO-Core" /d:sonar.organization="swastika-io" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="abc12c086721b2321aeca5c1f7c06e19b6a92213"
+    REM SonarQube.Scanner.MSBuild.exe begin /k:"Halcyon-Core" /d:sonar.organization="Halcyon-core" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="abc12c086721b2321aeca5c1f7c06e19b6a92213"
 
 
     REM MsBuild.exe /t:Rebuild
@@ -36,7 +36,7 @@ before_build:
 
     dotnet build
 build:
-  project: src\Swastika.Core.sln
+  project: src\Core.sln
   verbosity: minimal
 test_script:
 - cmd: >-
@@ -50,7 +50,7 @@ notifications:
 - provider: Email
   to:
   - nhathoang989@gmail.com
-  subject: '[ Swastika I/O ] Build failure'
+  subject: '[ Halcyon Core ] Build failure'
   on_build_success: false
   on_build_failure: true
   on_build_status_changed: false
