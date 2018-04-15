@@ -4,10 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Halcyon.Cms.Lib</RootNamespace>
     <Version>0.0.4</Version>
-    <Authors>Swastika I/O Team, Smileway Team</Authors>
-    <Company>Swastika I/O</Company>
-    <Copyright>Swastika I/O, Smileway, Befirst.Solution</Copyright>
-    <Product>Swastika I/O Core CMS Library</Product>
+    <Authors>Halcyon Core Team, Smileway Team</Authors>
+    <Company>Halcyon Core</Company>
+    <Copyright>Halcyon Core, Smileway, Befirst.Solution</Copyright>
+    <Product>Halcyon Core CMS Library</Product>
     <PackageLicenseUrl>https://github.com/Swastika-IO/Swastika-IO-Core/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://www.Halcyon.io</PackageProjectUrl>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/26378971</PackageIconUrl>

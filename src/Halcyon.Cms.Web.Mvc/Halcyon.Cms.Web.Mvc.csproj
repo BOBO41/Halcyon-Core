@@ -9,10 +9,10 @@
     <GenerateProgramFile>false</GenerateProgramFile>
     <PublishWithAspNetCoreTargetManifest>False</PublishWithAspNetCoreTargetManifest>
     <Version>0.0.4</Version>
-    <Authors>Swastika I/O Team, Smileway Team</Authors>
-    <Company>Swastika I/O</Company>
-    <Product>Swastika I/O Core CMS (MVC)</Product>
-    <Copyright>Swastika I/O, Smileway, Befirst.Solution</Copyright>
+    <Authors>Halcyon Core Team, Smileway Team</Authors>
+    <Company>Halcyon Core</Company>
+    <Product>Halcyon Core CMS (MVC)</Product>
+    <Copyright>Halcyon Core, Smileway, Befirst.Solution</Copyright>
     <PackageLicenseUrl>https://github.com/Swastika-IO/Swastika-IO-Core/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://www.swastika.io</PackageProjectUrl>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/26378971</PackageIconUrl>
